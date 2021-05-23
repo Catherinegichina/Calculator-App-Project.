@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
         button4.setOnClickListener{
             var result1=input1.text.toString().toInt()
             var result2=input2.text.toString().toInt()
-            var modulus=result1%result2
-            input3.text="Answer:$modulus"
+            var modul=result1%result2
+            input3.text="Answer:$modul"
         }
     }
 
